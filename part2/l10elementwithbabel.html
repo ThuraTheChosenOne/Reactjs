@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Element</title>
+    </head>
+    <body>
+
+        
+        <div id="root">
+
+        </div>
+
+
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+        <script type="text/babel">
+
+            const header =React.createElement(
+                'h3',
+                {id:"title",className:"card-title"},
+                'ReactJs Class'
+            );
+
+            const caption = React.createElement(
+                'p',
+                null,
+                "welcome to reactjs frame work"
+            );
+
+            const footer =<div className="footer">Thanks for interesting us</div>
+
+            const container = <div id="balbel-container" className="main-container">
+                <h1>Thie is Babel js</h1>
+                {header}
+                {caption}
+                {footer}
+                </div>;
+                
+            const root = ReactDOM.createRoot(document.getElementById('root'));
+            root.render(container);
+        </script>
+    </body>
+</html>
+
+<!-- https://babeljs.io/docs/babel-standalone -->

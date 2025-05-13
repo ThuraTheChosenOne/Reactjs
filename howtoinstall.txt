@@ -1,0 +1,53 @@
+=>How To Install
+
+node -v
+nvm ls or nvm list or nvm list-remote
+nvm use v23.1.0
+nvm alias default v23.1.0
+
+npm -v 10.9.0
+nvm -v
+
+=>ReactJs Installation Method 1
+
+https://react.dev/
+https://react.dev/learn/create-jeactjs-app
+
+npx create-next-app@latest
+
+Question : Ok to proceed? (y) y
+What is your project named? helloearth
+Would you like to use TypeScript? » No / Yes No
+Would you like to use ESLint?No / Yes No
+Would you like to use Tailwind CSS? No
+Would you like your code inside a `src/` directory? Yes
+Would you like to use App Router? (recommended) Yes
+Would you like to customize the import alias (`@/*` by default)? No
+
+cd helloearth/
+npm run dev
+
+http://localhost:3000
+http://192.168.0.104:3000
+
+
+=>ReactJs Installation Method 2
+
+https://vitejs.dev/
+https://vitejs.dev/guide/
+
+npm create vite@latest
+Question : Ok to proceed? (y) y
+Project name: helloworld
+Select a framework: React
+Select a variant: Javascript
+
+  cd helloworld
+  npm install
+  npm run dev
+
+    VITE v6.3.5  ready in 610 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
