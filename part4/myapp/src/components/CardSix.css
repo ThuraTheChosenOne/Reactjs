@@ -1,0 +1,15 @@
+h3{
+    color: red;
+
+}
+
+h5{
+    color: blue;
+}
+
+.mytextstyle{
+    color: green;
+    text-decoration: underline;
+    font: 19px;
+
+}

@@ -29,4 +29,4 @@ class CardOne extends React.Component{
 export default CardOne;
 
 // functional component so return 
-// class component so rend => return 
+// class component so rend => return , class compoent so yin Component

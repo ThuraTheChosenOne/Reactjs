@@ -7,6 +7,7 @@ import CardTwo from './components/CardTwo.jsx';
 import CardThree from './components/CardThree.jsx';
 import CardFour from './components/CardFour.jsx';
 import CardFive from './components/CardFive.jsx';
+import CardSix from './components/CardSix.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
     <CardThree />
     <CardFour />
     <CardFive />
+    <CardSix />
 
 
 
