@@ -8,6 +8,12 @@ import CardThree from './components/CardThree.jsx';
 import CardFour from './components/CardFour.jsx';
 import CardFive from './components/CardFive.jsx';
 import CardSix from './components/CardSix.jsx';
+import CardSeven from './components/CardSeven.jsx';
+import CardEight from './components/CardEight.jsx';
+import CardNine from './components/CardNine.jsx';
+import CardTen from './components/CardTen.jsx';
+import CardEleven from './components/CardEleven.jsx';
+import CardTwelve from './components/CardTwelve.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,8 +24,13 @@ createRoot(document.getElementById('root')).render(
     <CardFour />
     <CardFive />
     <CardSix />
+    <CardSeven />
 
-
+    <CardEight />
+    <CardNine />
+    <CardTen />
+    <CardEleven />
+    <CardTwelve />
 
   </StrictMode>,
 )
