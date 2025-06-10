@@ -14,6 +14,8 @@ import CardNine from './components/CardNine.jsx';
 import CardTen from './components/CardTen.jsx';
 import CardEleven from './components/CardEleven.jsx';
 import CardTwelve from './components/CardTwelve.jsx';
+import CardThirteen from './components/CardThirteen';
+import CardFourteen from './components/CardFourteen';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -31,6 +33,9 @@ createRoot(document.getElementById('root')).render(
     <CardTen />
     <CardEleven />
     <CardTwelve />
+    <CardThirteen/>
+    <CardFourteen/>
+   
 
   </StrictMode>,
 )
